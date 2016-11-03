@@ -1,9 +1,99 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Coursera Module 2: Our Menu</title>
+<style type="text/css">
+/*****BASE STYLES*/ 
+* {
+	box-sizing: border-box;
+	}
+	
+	#menuSection {
+		background-color: #FFEFD5;
+		border: 1px solid black;
+		float:left;
+		margin: 10px;
+		width:90%;
+		height:150px;
+		/*margin 10px;*/
+		margin-right: auto;
+		margin-left: auto;
+
+		
+	}
+	
+	#menuLabel {
+		
+		border: 1px solid black;
+		
+		text-align: center;
+		width: 33%;
+		position:relative;
+		right:-67%;
+	}
+.chicken {
+	background-color: #FF9900;
+}
+.beef {
+	background-color: #CCCC00;
+}
+.sushi {
+	background-color: #33CCCC;
+}
+.row {
+	width:100%;
+}
+/**** "desktop" devices ***/
+@media (min-width: 992px) {
+.col-dt-4 {
+
+}
+}
+
+/**** "tablet" devices ***/
+@media (min-width: 768px) and (max-width: 991px) {
+.col-tb-6, .col-tb-12 {
+
+}	
+}
+
+/**** "mobile" devices ***/
+@media (max-width: 767px) {
+.col-mb-12 {
+
+}	
+}
+
+
+</style>	
 </head>
 <body>
+<h1>Our Menu</h1>
+<div id="menuSection">
+<div id="menuLabel" class="chicken">Chicken</div>
+<p>This is some text about chicken
+<ul>
+<li>Chicken Teriyaki</li>
+<li>Chicken and Broccoli</li>
+</ul>
+</p>
+</div>
+<div id="menuSection">
+<div id="menuLabel" class="beef">Beef</div>
+<p>Oh, we have good beef!
+<ul>
+<li>Beef Teriyaki</li>
+<li>Beef and Broccoli</li>
+</ul>
+</p>
+</div>
+<div id="menuSection">
+<div id="menuLabel" class="sushi">Sushi</div>
+<p>We actually have no sushi: we don't care for it</p>
 
+
+</ul>
+</p>
+</div>
 </body>
 </html>
